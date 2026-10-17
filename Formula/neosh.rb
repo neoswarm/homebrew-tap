@@ -2,28 +2,28 @@
 class Neosh < Formula
   desc "Terminal-first agent workspace where every feature is a plugin"
   homepage "https://github.com/neoswarm/neosh"
-  version "0.6.1"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/neoswarm/neosh/releases/download/v0.6.1/neosh-aarch64-apple-darwin.tar.gz"
-      sha256 "15d6e8b7eeef0b5f0cf6903755c70d2a348f62e32d3ae799462581db8f150bee"
+      url "https://github.com/neoswarm/neosh/releases/download/v0.7.0/neosh-aarch64-apple-darwin.tar.gz"
+      sha256 "b79a72ec6b225fa0165b692b9f8830716e11d821b2bf995ec57b8d18c5b03b2f"
     end
     on_intel do
-      url "https://github.com/neoswarm/neosh/releases/download/v0.6.1/neosh-x86_64-apple-darwin.tar.gz"
-      sha256 "9784a7b02d334a709d6baddea1f7d3397c3911ac36c578364b08c9ad1653b0f5"
+      url "https://github.com/neoswarm/neosh/releases/download/v0.7.0/neosh-x86_64-apple-darwin.tar.gz"
+      sha256 "4fd67906e1b726d16c94955e9565db365cbe88132a7ff308b7ee4a00d66f82ab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/neoswarm/neosh/releases/download/v0.6.1/neosh-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6cdf2843ec11bd09752451afdb9b862d59e7e6325989cafa6c8e46d67f0e9837"
+      url "https://github.com/neoswarm/neosh/releases/download/v0.7.0/neosh-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d96c53a0936ecfac0a02d864573748a5225aa96dbea77dcf8a86c7f0b38a46bb"
     end
     on_intel do
-      url "https://github.com/neoswarm/neosh/releases/download/v0.6.1/neosh-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "62ca375ca09cd057199107defc243a579af80bc02cf2f203cbb142b1cfe9ab57"
+      url "https://github.com/neoswarm/neosh/releases/download/v0.7.0/neosh-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9c95cb65d397e57c60c3b69a3985142f9ee69162cf55073694436f001fe06052"
     end
   end
 
